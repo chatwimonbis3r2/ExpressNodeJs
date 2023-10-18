@@ -13,5 +13,5 @@ app.get("/", (req, res) => {
 });
 
 app.listen(port, () => {
-  debug(colors.brightGreen("Listening On Port: " + port));
+  debug(colors.brightGreen("Listening On Port: >>" + port));
 });
